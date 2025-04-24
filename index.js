@@ -5,7 +5,9 @@ const port = 3000;
 
 app.get("/", (req, res) => {
     const data = {
-        theName: "Azpil",
+        theName: "Juan",
+       
+        
         theAge: 37,
         theCity: "CDMX"
     }
