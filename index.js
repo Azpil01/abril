@@ -5,8 +5,9 @@ const port = 3000;
 
 app.get("/", (req, res) => {
     const data = {
-        theName: "Juan",
-        theAge: 28
+        theName: "Juan E",
+        theAge: 37,
+        theCountry: "MX"
     }
     res.render("index.ejs", data);
 })
