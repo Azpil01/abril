@@ -7,7 +7,8 @@ app.get("/", (req, res) => {
     const data = {
         theName: "Juan",        
         theAge: 37,
-        theCity: "CDMX"
+        theCity: "CDMX",
+        theCountry: "MX"
     }
     res.render("index.ejs", data);
 })
