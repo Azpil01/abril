@@ -4,7 +4,11 @@ const app = new express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-    res.render("index.ejs");
+    const data = {
+        theName: "Azpil",
+        theAge: 37
+    }
+    res.render("index.ejs", data);
 })
 
 app.listen(port, (req, res) => {
