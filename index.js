@@ -10,6 +10,7 @@ app.get("/", (req, res) => {
         theCity: "CDMX",
         theCountry: "MX",
         theStreet: "Nogal",
+        theNumber: 262
         
     }
     res.render("index.ejs", data);
