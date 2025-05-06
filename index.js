@@ -8,7 +8,9 @@ app.get("/", (req, res) => {
         theName: "Juan",        
         theAge: 37,
         theCity: "CDMX",
-        theCountry: "MX"
+        theCountry: "MX",
+        theStreet: "Nogal",
+        
     }
     res.render("index.ejs", data);
 })
